@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shorcut icon" href="../favicon.png">
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+   
+    <!-- css -->
+
+    <link rel="stylesheet" href="../css/estilo.css">
+    <script src="https://kit.fontawesome.com/cfcc8dbcf1.js" crossorigin="anonymous"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <style>
+        ol li{
+    position: relative;
+    left: 0;
+    border-left: 2px solid #24ff0b;
+    transition: var(--transition);
+    cursor: pointer;
+    margin: 4px 0;
+}
+ol li::before{
+    content: "";
+    position: absolute;
+    width: 50%;
+    height: 100%;
+    background: #24ff0b;
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: 0.5s;
+}
+ol li:hover::before{
+    transform: scaleX(1);
+}
+ol a{
+    color: var(--color-ligth);
+}
+ol li a{
+    position: relative;
+    padding: 8px;
+    display: inline-block;
+    z-index: 1;
+    transition: 0.5s;
+
+}
+ol li:hover{
+    text-decoration: underline;
+    left: 10px;
+}
+    </style>
+    <title>Actividades culturales - María de Nazaret</title>
+</head>
+<body>
+    <nav style="zoom: 80%;">
+        <center><small style="text-align: center; width: 100%; height: auto; text-align: center;color: transparent;">¡</small></center>
+        <div class="navbar">
+            <i class='fa-solid fa-align-left bx bx-menu' style="z-index: 99; margin-top: -3rem"></i>
+            <div><a href="../index.html">
+                <div class="logo"><img src="../imagenes/logo96.png" alt="logo" style="z-index: 99; margin-top: -3rem"></div></a></div>
+            <div class="nav-links">
+                <div class="sidebar-logo">
+                    <span class="logo-name">Actividades culturales</span>
+                    <i class='fa-solid fa-xmark bx bx-x'></i>
+                </div>
+                
+                <ul class="links">
+                    
+                    <li>
+                        <a href="../index.html">Sobre Nosotras</a>
+                        <i class='bx bxs-chevron-down htmlcss-arrow arrow fa-solid fa-chevron-down'></i>
+                        <ul class="htmlCss-sub-menu sub-menu">
+                            <!-- <li><a href="#" style="color: var(--color-light); font-weight: 300; font-size: 0.9rem;">Misión & Visión</a></li> -->
+                            <li><a href="../template/historia.html" style="color: var(--color-light); font-weight: 300; font-size: 0.9rem;">Historia</a></li>
+                            <li><a href="../template/audio/audio.html" style="color: var(--color-light); font-weight: 300; font-size: 0.9rem;">Himno</a></li>
+    
+                            <li class="more">
+                                <span><a href="#"></a>
+                                    <i class='bx bxs-chevron-right arrow more-arrow' style="display: none;"></i>
+                                </span>
+    
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="../institucional/gestionpedagogica.html">Gestión pedagógica</a>
+                        <i class='bx bxs-chevron-down js-arrow arrow fa-solid fa-chevron-down'></i>
+                        <ul class="js-sub-menu sub-menu">
+                            <li><a href="#" style="color: var(--color-light); font-weight: 300; font-size: 0.9rem;">Nivel Primaria</a></li>
+                            <li><a href="#" style="color: var(--color-light); font-weight: 300; font-size: 0.9rem;">Nivel Secundaria</a></li>
+    
+                        </ul>
+                    </li>
+                    
+                    <li><a href="../institucional/gestioninstitucional.html">Gestión institucional</a></li>
+                    <li><a href="../institucional/actividadesculturales.html">Actividades culturales</a></li>
+                    <li><a href="../campus/index.html">Campus online</a></li>
+                    <li><a href="../galeria/galeria.html">Galería</a></li>
+                    <li><a href="../template/admision.html">Admisión</a></li>
+                    
+                    <li><a href="../template/contacto.html">Contacto</a></li>
+                    <div class="subimg">
+                        
+                        <img src="../imagenes/niña2.png" alt=""></div>
+                </ul>
+    
+            </div>
+    
+            <!-- <div class="search-box" style="display: none;">
+                <i class='bx bx-search'></i>
+            </div> -->
+            <ul style="z-index: 99; margin-top: -3rem">
+                <samp style="color: #fff;">&nbsp;</samp>
+                <div class="heart">
+                    <div class="toggle"></div>
+                </div>
+                <samp style="color: #fff;">Nazaret</samp>
+            </ul>
+            
+        </div>
+    </nav>
+    <!-- inicio -->
+    <header>
+        
+        <div class="container header_container">
+            <div class="header_left" data-aos="fade-right" data-aos-duration="1000">
+                <h2 style="font-family: 'Maritime Tropical Neuedouble';">Actividades culturales</h2>
+                <div class="separador mx-auto"></div>
+                <p style="font-size: 1rem; font-weight: 400; margin-top: -10px;">
+                <ol data-aos-delay="300" data-aos="fade-down" data-aos-duration="1000">
+                    <li><a href="#actividades" ><i class="fa-solid fa-angle-right"></i>&nbsp; Festividades</a></li>
+                </ol></p>
+            </div>
+
+            <div class="header_right" data-aos="fade-left" data-aos-duration="1000">
+                <div class="header_right-image">
+                    <img src="../galeria/images/festividades/festividad4.webp" alt="header" style="border-radius: 20px;">
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- contenido -->
+    <section class="courses" id="actividades">
+        <h2 stile="margin-top: -4rem;">Festividades</h2>
+        <div class="container courses_container">
+
+            <article class="course" data-aos="fade-up">
+                <div class="course_image">
+                    <img src="../imagenes/semanasanta.jpeg" alt="festividad1">
+                </div>
+                <div class="course_info">
+                    <h4>Semana Santa</h4>
+                    <small>02/04 - 08/04</small>
+                    <p>Acompañando a Jesús en esta Semana Santa, los estudiantes de primaria y secundaria reflexionaron sobre el significado de la celebración a través de diversas actividades elaboradas por ellos. De esta manera, todos lo acompañan en el camino para vivir la pascua junto a él.</p>
+                </div>
+            </article>
+              
+            <article class="course" data-aos="fade-up" data-aos-delay="100">
+                <div class="course_image">
+                    <img src="../galeria/images/festividades/festividad4.webp" alt="curso">
+                </div>
+                <div class="course_info">
+                    <h4>Fiestas Patrias</h4>
+                    <small>28/07 - 29/07</small>
+                    <p>Con el orgullo de ser peruanos celebramos las Fiestas Patrias en nuestro colegio con diferentes actividades que nos hacen recordar y valorar a los gestores de nuestra independencia.</p>
+                </div>
+            </article>
+              
+            <article class="course" data-aos="fade-up" data-aos-delay="200">
+                <div class="course_image">
+                    <img src="../galeria/images/festividades/navidad.webp" alt="curso">
+                </div>
+                <div class="course_info">
+                    <h4>Navidad</h4>
+                    <small>25/12</small>
+                    <p>A todo el mundo le gusta una buena fiesta de Navidad, pero los niños y jóvenes en edad escolar aprecian especialmente los momentos de alegría. Es por eso que en nuestro colegio al ser la época mas maravillosa del año podemos tener la oportunidad de poder tejer un cuento comprometiendo una aventura emocionante.</p>
+                </div>
+            </article>
+        </div>
+    </section>
+    <!-- pie -->
+    <footer class="footer">
+        <div class="container footer_container">
+            <div class="footer_1">
+                <a href="index.html" class="footer_logo">
+                    <h4>Maria de Nazaret</h4>
+                </a>
+                <p>
+                    Entonces dime: <br>
+                    ¿Qué es lo mejor te ha pasado? <br>
+                    Haber nacido MUJER!!! <br>
+                    <img src="../imagenes/niña2.png" alt="imgfooter" style="width: 65%;" >
+                    <!-- <input type="text" name="respuesta" placeholder="Haber nacido MUJER" style="background-color: transparent;color: rgb(255, 255, 255);"> -->
+                </p>
+                
+            </div>
+    
+            <div class="footer_2">
+                <h4>Explora</h4>
+                <ul class="permalinks">
+                    <!-- <li><a href="#inicio">Inicio</a></li> -->
+                    <li><a href="../template/historia.html">Sobre Nosotras</a></li>
+                    <li><a href="../institucional/gestionpedagogica.html">Gestión Pedagógica</a></li>
+                    <li><a href="../institucional/gestioninstitucional.html">Gestión Institucional</a></li>
+                    <li><a href="../institucional/actividadesculturales.html">Actividades culturales</a></li>
+                    <li><a href="../campus/index.html">Campus online</a></li>
+    
+                    <li><a href="../galeria/galeria.html">Galería</a></li>
+                    <li><a href="../template/admision.html">Admisión</a></li>
+                    <li><a href="../template/contacto.html">Contacto</a></li>
+                </ul>
+            </div>
+    
+            <div class="footer_3">
+                <h4>Enlaces externos</h4>
+                <ul class="permalinks">
+                    <li><a href="http://ugelcajamarca.gob.pe/">UGEL</a></li>
+                    <!-- <li><a href="#">REGLA</a></li> -->
+                    <li><a href="#">PCIE</a></li>
+                    <li><a href="#">PEJ</a></li>
+                </ul>
+            </div>
+    
+            <div class="footer_4">
+                <h4>Contacto</h4>
+                <div>
+                    <i class="fa-solid fa-phone" style="zoom: 1.2;"></i><p>(076) 363545</p>
+                    <br>
+                    <i class="fa-regular fa-envelope" style="zoom: 1.2;" mail></i><a href="mailto:secretaria@mariadenazaret.edu.pe"><br> secretaria@mariadenazaret.edu.pe</a> <br>
+                    <br>
+                    <i class="fa-solid fa-location-dot" style="zoom: 1.2;"></i><p>Av. Hoyos Rubio 1050 <br> Urb. Horacio Zeballos Gamez</p>
+                </div>
+                    
+                <ul class="footer_social">
+                    <li>
+                        <a href="https://www.facebook.com/mariadenazaretcajamarca"><i class="fa-brands fa-facebook-f"></i></a>
+                    </li>
+    
+                    <li>
+                        <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a>
+                    </li>
+    
+                    <li>
+                        <a href="https://youtube.com/channel/UCLUIynDJbZCsjyiAWhYfgkw"><i class="fa-brands fa-youtube"></i></i></a>
+                    </li>
+    
+                    <li>
+                        <a href="https://twitter.com/"><i class="fa-brands fa-twitter"></i></i></a>
+                    </li>
+    
+                    <li>
+                        <a href="https://www.tiktok.com/"><i class="fa-brands fa-tiktok"></i></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+</body>
+<script>
+    window.addEventListener('scroll', () => {
+    document.querySelector('nav').classList.toggle
+    ('window-scroll',window.scrollY > 0)
+    
+});
+
+let navLinks = document.querySelector(".nav-links");
+  let menuOpenBtn = document.querySelector(".navbar .bx-menu");
+  let menuCloseBtn = document.querySelector(".nav-links .bx-x");
+  menuOpenBtn.onclick = function() {
+  navLinks.style.left = "0";
+  }
+  menuCloseBtn.onclick = function() {
+  navLinks.style.left = "-100%";
+  }
+  
+  
+  // sidebar submenu open close js code
+  let htmlcssArrow = document.querySelector(".htmlcss-arrow");
+  htmlcssArrow.onclick = function() {
+   navLinks.classList.toggle("show1");
+  }
+  let moreArrow = document.querySelector(".more-arrow");
+  moreArrow.onclick = function() {
+   navLinks.classList.toggle("show2");
+  }
+  let jsArrow = document.querySelector(".js-arrow");
+  jsArrow.onclick = function() {
+   navLinks.classList.toggle("show3");
+  }
+
+  const heart = document.querySelector(".heart");
+
+  heart.addEventListener("click", () =>{
+  if(!heart.classList.contains("forward")){
+      heart.classList.add("forward");
+      heart.classList.remove("reverse")
+  }else{
+      heart.classList.add("reverse")
+      heart.classList.remove("forward");
+
+      }
+  })
+
+
+  const body = document.querySelector("body"),
+    toggle = document.querySelector(".toggle");
+
+  let getMode = localStorage.getItem("mode");
+  if (getMode && getMode === "dark") {
+    body.classList.add("dark");
+    toggle.classList.add("active");
+  }
+
+  toggle.addEventListener("click", () => {
+    body.classList.toggle("dark");
+
+    if (!body.classList.contains("dark")) {
+      return localStorage.setItem("mode", "light");
+    }
+    localStorage.setItem("mode", "dark");
+  });
+
+  toggle.addEventListener("click", () => toggle.classList.toggle("active"));
+  
+
+</script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
+  </script>
+</html>
